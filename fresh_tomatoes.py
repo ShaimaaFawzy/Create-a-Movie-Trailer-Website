@@ -125,7 +125,6 @@ movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
-    <a href="{trailer_youtube_id}" > Show The Trailer </a>
     <h4> IMDB rating = {film_rating} </h4>
 </div>
 '''
