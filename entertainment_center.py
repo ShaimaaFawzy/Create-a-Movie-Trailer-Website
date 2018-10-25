@@ -3,7 +3,7 @@ import media
 #import fresh_tomatoes class
 import fresh_tomatoes
 
-""" Define the movies data """ 
+#Define the movies  
 finding_nemo = media.Movie("Finding Nemo",
 	"Finding Nemo is a 2003 American computer-animated adventure film produced by Pixar Animation Studios",
 	"https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",  

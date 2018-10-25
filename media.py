@@ -3,9 +3,8 @@ import webbrowser
 
 #Class creation 
 class Movie():
-      """ this funtion define the paramters of the movie """"
-
      def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube,film_rating):
+         """ this funtion define the paramters of the movie """
          self.title = movie_title
          self.storyline = movie_storyline
          self.poster_image_url = poster_image
