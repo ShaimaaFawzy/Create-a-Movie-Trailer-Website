@@ -1,6 +1,9 @@
+#import the webbrowser library 
 import webbrowser
+
+#Class creation 
 class Movie():
-     
+      """ this funtion define the paramters of the movie """"
 
      def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube,film_rating):
          self.title = movie_title

@@ -1,7 +1,9 @@
 #import media class
 import media
-
+#import fresh_tomatoes class
 import fresh_tomatoes
+
+""" Define the movies data """ 
 finding_nemo = media.Movie("Finding Nemo",
 	"Finding Nemo is a 2003 American computer-animated adventure film produced by Pixar Animation Studios",
 	"https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",  
@@ -20,8 +22,8 @@ inside_out  = media.Movie("Inside Out ",
 	"https://www.youtube.com/watch?v=seMwpP0yeu4",
         "8.2")  
 
-# appending movies into a list:
+# appending movies into a list 
 movies = [finding_nemo, lion_king, inside_out]
 
-# calling the external rendering function:
+# buinding the data from the movie class to fresh_tomatoes page
 fresh_tomatoes.open_movies_page(movies)
