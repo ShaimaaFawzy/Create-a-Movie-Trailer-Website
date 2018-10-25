@@ -19,7 +19,7 @@ main_page_head = '''
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
-        }
+        } 
         #trailer .modal-dialog {
             margin-top: 200px;
             width: 640px;
